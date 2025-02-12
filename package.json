@@ -3,8 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "build": "npx parcel build index.html",
-        "test": "cx"
+      "build": "npx parcel build index.html",
+      "test": "cx",
+      "start": "npm run dev",
+      "dev": "npx parcel index.html"
     },
     "keywords": [],
     "author": "",
